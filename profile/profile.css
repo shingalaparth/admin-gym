@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+    
+}
+body{
+    background-color: #F4F7FE;
+}
+
+/* navbar */
+#id{
+    display: flex;
+}
+#id nav{
+    /* border: 1px solid black; */
+    /* box-shadow: 5px 0 10px rgba(0, 0, 0, 0.5); */
+    background-color: #FFFFFF;
+    height: 929px;
+    width: 300px;
+}
+#id nav .title{
+    padding: 50px 50px 0px 50px;
+    font-weight: 900;
+}
+#id nav .title h2{
+    font-size: xx-large;
+    
+}
+#id nav .navbarofdash{
+    margin: 50px; 
+}
+#id nav .navbarofdash ul{
+    list-style: none;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+#id nav .navbarofdash ul li{
+    margin-top: 30px;
+}
+ #id nav .navbarofdash button{
+    margin-top: 200px ;
+    height: 40px;
+    width: 180px;
+    border-radius: 40px;
+ }
+
+/* end of navbar */
+#id .profile .profilettitle{
+    margin: 40px;
+    margin-left: 100px;
+}
+
+#id .dataprofile{
+    height: 650px;
+    width: 1400px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-left: 100px;
+    padding-top: 30px;
+    background-color: white;
+}
+#id .dataprofile .abc{
+    height: 200px;
+    width: 1300px;
+    border-radius: 20px;
+    background-color: rgba(134, 140, 255, 1);
+    color: #FFFFFF;
+    margin-left: 50px;
+    padding: 50px;
+    
+}
+
+
+
+#id .dataprofile .first{
+    height: 350px;
+    width: 1200px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+#id .dataprofile .first .box{
+    height: 350px;
+    width: 250px;
+    /* border: 1px solid red; */
+}
+
+#id .dataprofile .first .boxa{
+    height: 350px;
+    width: 350px;
+    /* border: 1px solid red; */
+    color:rgba(43, 54, 116, 1);
+}
+#id .dataprofile .first .boxa .contant{
+
+    height: 50px;
+    width: 350px;
+    /* border: 2px solid red; */
+    text-align: start;
+   
+}
+#id .dataprofile .first .boxa .contant h4{
+    margin-top: 10px;
+}
+#id .dataprofile .first .box .head{
+    height: 50px;
+    width: 250px;
+    /* border: 1px solid red; */
+}
+#id .dataprofile .first .box .head h4{
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+
+.exit{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(134, 140, 255, 1) ;
+    display: inline;
+    color: #ffffff;
+    position: relative;
+    top: -10%;
+    left: 70%;
+}
+
+ 
+
+
